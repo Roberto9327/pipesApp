@@ -7,6 +7,10 @@ import { AppComponent } from './app.component';
 
 import { SharedModule } from './shared/shared.module';
 
+//Confguración del locale de la app
+
+
+
 @NgModule({
   declarations: [
     AppComponent

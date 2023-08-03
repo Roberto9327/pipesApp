@@ -18,16 +18,19 @@ export class MenuComponent  implements OnInit{
               icon: 'pi pi-desktop',
               items: [
                   {
-                      label: 'Textos y Flechas',
+                      label: 'Basics',
                       icon: 'pi pi-align-left',
+                      routerLink: '/'
                   },
                   {
                       label: 'Números',
                       icon: 'pi pi-dollar',
+                      routerLink: '/numbers'
                   },
                   {
-                      label: 'Delete',
+                      label: 'UnCommon',
                       icon: 'pi pi-globe',
+                      routerLink: '/uncommon'
                   }
               ]
           },
